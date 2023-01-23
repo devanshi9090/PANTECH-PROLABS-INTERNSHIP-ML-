@@ -1,0 +1,22 @@
+PROBLEM STATEMENT : To predict wether a customer purchases a certain item based on their age and salary
+
+Algorithm used : Logistic Regression
+
+Model Accuracy : 95%
+
+workflow :
+gather the data
+check essential features of the data, like shape, column, describe, etc
+check the presence of any missing values
+
+it was observed that there exists a wide scale gap between age and salary, hence we need to bring it to a common scale.
+In order to do the same, we had 2 methods to choose from - Normalisation and standardisation
+We chose Normalisation(x-xmax/xmin-xmax) instead of standardisation(x-mean/std dev)
+we applied and transformed the 2 parameters
+
+we went for univariate visualisations
+splitting,training the algorithm
+testing
+validating(confusion matrix)
+checking the accuracy(1-wrong predictions/total samples)
+prediction
